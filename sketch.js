@@ -21,13 +21,12 @@ function draw() {
 }
 
 function touchStarted(){
+    entities.push(new Entity());
     return false;
 }
 function touchEnded(){
     return false;
 }
-
 function mouseClicked(){
-    entities.push(new Entity());
     return false;
 }
