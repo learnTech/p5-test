@@ -20,6 +20,6 @@ function draw() {
 }
 
 
-function mousePressed(){
+function touchStarted(){
     entities.push(new Entity());
 }
