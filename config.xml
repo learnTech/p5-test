@@ -1,7 +1,7 @@
-<widget id="com.swapy97.sidebartest" version="1.0">
-    <name>Sidebar Test</name>
+<widget id="com.swapy97.p5jstest" version="1.0">
+    <name>P5.js Test</name>
     <description>
-        Siderbar Test with PhoneGap for mobile devices.
+        P5.js Test with PhoneGap for mobile devices.
     </description>
     <author email="niklas.gschaider@gschaider-systems.at">
         Niklas Gschaider
