@@ -12,6 +12,7 @@ function draw() {
     background(51);
 
     text(width+"/"+height, 10, 20);
+    text(round(frameRate())+" FPS", width-50, 20);
 
     for(var i=0;i<entities.length;i++){
         entities[i].update();
@@ -19,7 +20,14 @@ function draw() {
     }
 }
 
-
 function touchStarted(){
+    return false;
+}
+function touchEnded(){
+    return false;
+}
+
+function mouseClicked(){
     entities.push(new Entity());
+    return false;
 }

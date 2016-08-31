@@ -1,9 +1,9 @@
 function Entity(){
-    this.x = random(width-20);
-    this.y = random(height-20);
+    this.x = mouseX;
+    this.y = mouseY;
 
-    this.xSpd = 2;
-    this.ySpd = 2;
+    this.xSpd = random(-2, 2);
+    this.ySpd = random(-2, 2);
 
     this.update = function(){
         this.x += this.xSpd;
